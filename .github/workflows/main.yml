@@ -15,7 +15,7 @@ jobs:
       with:
         dotnet-version: '5.0.x'
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restoreugdsigfus
     - name: Build project
       run: dotnet build --no-restore
     # Optional test step if there are tests defined in your project
